@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-scroll/modules";
+
+import Image from "next/image";
 import close from "/public/close.svg";
 import menu from "/public/menu.svg";
 
@@ -18,7 +21,7 @@ const Navbar = () => {
           className="md:hidden px-[30px]"
           onClick={() => setToggle((prev) => !prev)}
         >
-          <img
+          <Image
             src={toggle ? close : menu}
             alt={"menu"}
             className="w-[30px] h-[30px]"
