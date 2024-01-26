@@ -10,7 +10,7 @@ const Projects = () => {
     <div id="projects" className="mt-[120px] mb-[150px]">
       <div>
         <h2>Selected Projects</h2>
-        <p className="text-neutral-700 text-[15px] font-normal font-['Inter'] leading-[25px] mb-[25px]">
+        <p className="text-neutral-700 text-[15px] font-normal font-sans leading-[25px] mb-[25px]">
           Some of the side projects I&apos;ve worked on:
         </p>
       </div>
@@ -25,15 +25,15 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-col justify-evenly max-w-[270px]">
-            <h3 className="text-black text-[22px] font-bold font-['Inter']">
+            <h3 className="text-black text-[22px] font-bold font-sans">
               Commands REST API
             </h3>
-            <p className="text-black text-[15px] font-normal font-['Inter'] leading-[25px]">
+            <p className="text-black text-[15px] font-normal font-sans leading-[25px]">
               {" "}
               Tend to forget CLI commands? Heres an API I built using .NET and
               PostgreSQL to help you out
             </p>
-            <p className="text-black text-[15px] font-normal font-['Inter']">
+            <p className="text-black text-[15px] font-normal font-sans">
               <a>
                 View Project <GoArrowRight className="inline" />{" "}
               </a>
@@ -52,15 +52,15 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-col justify-evenly max-w-[270px]">
-            <h3 className="text-black text-[22px] font-bold font-['Inter']">
+            <h3 className="text-black text-[22px] font-bold font-sans">
               Word Master
             </h3>
-            <p className="text-black text-[15px] font-normal font-['Inter'] leading-[25px]">
+            <p className="text-black text-[15px] font-normal font-sans leading-[25px]">
               {" "}
               A fun, UI friendly word guessing game made using JavaFX and
               server-client threading.
             </p>
-            <p className="text-black text-[15px] font-normal font-['Inter']">
+            <p className="text-black text-[15px] font-normal font-sans">
               <a>
                 View Project <GoArrowRight className="inline" />{" "}
               </a>
@@ -77,15 +77,15 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-col justify-evenly max-w-[270px]">
-            <h3 className="text-black text-[22px] font-bold font-['Inter']">
+            <h3 className="text-black text-[22px] font-bold font-sans">
               Movie Monospace
             </h3>
-            <p className="text-black text-[15px] font-normal font-['Inter'] leading-[25px]">
+            <p className="text-black text-[15px] font-normal font-sans leading-[25px]">
               {" "}
               A movie website giving you trending movies and searching made with
               React, Tailwind, and ExpressJS.
             </p>
-            <p className="text-black text-[15px] font-normal font-['Inter']">
+            <p className="text-black text-[15px] font-normal font-sans">
               <a
                 href="https://github.com/ffarooqui2/movies-app"
                 target="_blank"
