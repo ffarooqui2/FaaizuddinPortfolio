@@ -11,7 +11,7 @@ const Projects = () => {
       <div>
         <h2>Selected Projects</h2>
         <p className="text-neutral-700 text-[15px] font-normal font-['Inter'] leading-[25px] mb-[25px]">
-          Some of the side projects I've worked on:
+          Some of the side projects I&apos;ve worked on:
         </p>
       </div>
       <div className="space-y-[60px]">
@@ -30,7 +30,7 @@ const Projects = () => {
             </h3>
             <p className="text-black text-[15px] font-normal font-['Inter'] leading-[25px]">
               {" "}
-              Tend to forget CLI commands? Heres an API I build using .NET and
+              Tend to forget CLI commands? Heres an API I built using .NET and
               PostgreSQL to help you out
             </p>
             <p className="text-black text-[15px] font-normal font-['Inter']">

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-col max-w-[600px]">
         <RoughNotationGroup show={true}>
           <div className=" font-['Inter'] text-[40px] leading-tight mb-[20px] font-bold">
-            👋🏼 Hello! I'm Faaizuddin, a{" "}
+            👋🏼 Hello! I&apos;m Faaizuddin, a{" "}
             <RoughNotation color={"#AFC8AD"} type="highlight">
               developer
             </RoughNotation>{" "}
@@ -23,7 +23,7 @@ const Hero = () => {
             <RoughNotation color="#EEE7DA" type="highlight">
               Computer Science
             </RoughNotation>{" "}
-            at the University of Illinois at Chicago, I've gained a solid
+            at the University of Illinois at Chicago, I&apos;ve gained a solid
             foundation in{" "}
             <RoughNotation color="#D2E3C8" type="highlight">
               data structures
@@ -67,7 +67,8 @@ const Hero = () => {
             collaborations.
             <br />
             <br />
-            I'm currently looking for a software engineering internship .{"   "}
+            I&apos;m currently looking for a software engineering internship .
+            {"   "}
             <RoughNotation
               type="circle"
               iterations={5}
