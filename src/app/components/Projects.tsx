@@ -34,7 +34,10 @@ const Projects = () => {
               PostgreSQL to help you out
             </p>
             <p className="text-black text-[15px] font-normal font-['Inter']">
-              <a>
+              <a
+                href="https://github.com/ffarooqui2/Commands-REST-API"
+                target="_blank"
+              >
                 View Project <GoArrowRight className="inline" />{" "}
               </a>
             </p>
@@ -61,7 +64,10 @@ const Projects = () => {
               server-client threading.
             </p>
             <p className="text-black text-[15px] font-normal font-['Inter']">
-              <a>
+              <a
+                href="https://github.com/ffarooqui2/WordChallenge-Multi-Threaded-Client-Server-Game"
+                target="_blank"
+              >
                 View Project <GoArrowRight className="inline" />{" "}
               </a>
             </p>
