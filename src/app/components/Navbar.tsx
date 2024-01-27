@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-scroll/modules";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import close from "/public/close.svg";
 import menu from "/public/menu.svg";
 

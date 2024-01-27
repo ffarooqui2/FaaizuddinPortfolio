@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import faaiz from "/public/faaiz-profile.jpg";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 

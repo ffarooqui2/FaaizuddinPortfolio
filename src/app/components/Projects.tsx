@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { GoArrowRight } from "react-icons/go";
 import project3Image from "/public/Project3Image.png";
 import project2Image from "/public/Project2Image.png";
