@@ -85,7 +85,7 @@ const Hero = () => {
             </a>
           </button>
           <button className="text-neutral-500 w-[180px] h-12 bg-white rounded-[7px] border-2 border-neutral-300">
-            <a href={"/resume.pdf"} target="_blank">
+            <a href={"/InternshipResume.pdf"} target="_blank">
               View Resume
             </a>
           </button>
