@@ -1,2 +1,2 @@
 # Personal Portfolio
-https://faaizuddin-portfolio.vercel.app/
+[faaizuddin.dev](https://www.faaizuddin.dev/)
