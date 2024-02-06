@@ -49,7 +49,7 @@ const Projects = () => {
             <Image
               className="rounded-[10px] drop-shadow-lg"
               src={project2Image}
-              alt={"Movie Monospace"}
+              alt={"Word Mas"}
               layout="fill"
               objectFit="cover"
             />
