@@ -45,13 +45,11 @@ const Projects = () => {
         </div>
         {/* Project 2 */}
         <div className="flex">
-          <div className="w-[361px] h-[215px] bg-zinc-300 rounded-[10px] drop-shadow mr-[45px]">
+          <div className="w-[361px] h-[215px] bg-zinc-300 rounded-[10px] drop-shadow mr-[45px] overflow-hidden">
             <Image
               className="rounded-[10px] drop-shadow-lg"
               src={project2Image}
-              alt={"Word Mas"}
-              layout="fill"
-              objectFit="cover"
+              alt={"Word Master"}
             />
           </div>
           <div className=" flex flex-col justify-evenly max-w-[270px]">
