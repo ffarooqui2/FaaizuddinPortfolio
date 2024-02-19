@@ -13,7 +13,7 @@ export default function Home() {
         <Projects />
         <Contact />
         <div className="mt-[100px] mb-[25px] h-[0px] border border-neutral-300" />
-        <p className="flex mb-[15rem] text-neutral-700 font-['Inter'] font-normal">
+        <p className="flex mb-[15rem] text-neutral-700 font-normal">
           Built with Typescript, Tailwind, and Next.js{" "}
           <DiReact className="w-[25px] h-[25px]" />
         </p>
