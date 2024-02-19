@@ -8,14 +8,14 @@ const Hero = () => {
     <section id="hero" className="flex row-auto justify justify-between">
       <div className="flex flex-col max-w-[600px]">
         <RoughNotationGroup show={true}>
-          <div className=" font-['Inter'] text-[40px] leading-tight mb-[20px] font-bold">
+          <div className="text-[40px] leading-tight mb-[20px] font-bold">
             👋🏼 Hello! I&apos;m Faaizuddin, a{" "}
             <RoughNotation color={"#AFC8AD"} type="highlight">
               developer
             </RoughNotation>{" "}
             based in Chicago.
           </div>
-          <p className="text-neutral-700  text-[15px] font-['Inter'] font-normal mb-[25px] leading-normal">
+          <p className="text-neutral-700  text-[15px] font-normal mb-[25px] leading-normal">
             I enjoy building apps that are user-friendly, fun, and helpful.
             <br />
             <br />
