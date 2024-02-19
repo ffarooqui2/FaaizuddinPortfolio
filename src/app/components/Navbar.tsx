@@ -29,7 +29,7 @@ const Navbar = () => {
         </button>
 
         <div className={`${toggle ? "block" : "hidden"} md:block`}>
-          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 font-['Inter']">
+          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
             <li>
               <a href="#hero">About</a>
             </li>
