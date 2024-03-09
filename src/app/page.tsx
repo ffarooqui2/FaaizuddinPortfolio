@@ -12,7 +12,7 @@ const inter = Inter({
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto max-w-[1000px]">
+      <div className="container mx-auto max-w-[1000px] px-[20px]">
         <Navbar />
         <Hero />
         <Projects />

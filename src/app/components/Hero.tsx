@@ -5,17 +5,23 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Hero = () => {
   return (
-    <section id="hero" className="flex row-auto justify justify-between">
-      <div className="flex flex-col max-w-[600px]">
+    <section
+      id="hero"
+      className="flex row-auto justify justify-center lg:justify-between "
+    >
+      <div className="flex flex-col max-w-[600px] sm:text-left md:text-center lg:text-left">
         <RoughNotationGroup show={true}>
-          <div className="text-[40px] leading-tight mb-[20px] font-bold">
+          <div
+            className="text-[40px] leading-tight mb-[20px] font-bold
+          "
+          >
             👋🏼 Hello! I&apos;m Faaizuddin, a{" "}
             <RoughNotation color={"#AFC8AD"} type="highlight">
               developer
             </RoughNotation>{" "}
             based in Chicago.
           </div>
-          <p className="text-neutral-700  text-[15px] font-normal mb-[25px] leading-normal">
+          <p className="text-neutral-700  text-[15px] font-normal mb-[50px] lg:mb-[25px] leading-normal">
             I enjoy building apps that are user-friendly, fun, and helpful.
             <br />
             <br />
@@ -78,7 +84,7 @@ const Hero = () => {
             </RoughNotation>
           </p>
         </RoughNotationGroup>
-        <div className="flex">
+        <div className="flex justify sm:justify-start md:justify-evenly lg:justify-start">
           <button className="w-[180px] h-12 bg-zinc-900 rounded-[7px] text-white mr-[15px]">
             <a href="https://www.linkedin.com/in/faaizuddinf/" target="_blank">
               View LinkedIn
@@ -90,8 +96,15 @@ const Hero = () => {
             </a>
           </button>
         </div>
+        <div className="flex self-center mt-[60px] max-w-[500px] max-h-[500px] lg:hidden">
+          <Image
+            className="object-cover rounded-full"
+            src={faaiz}
+            alt={"Faaiz's Profile Image"}
+          />
+        </div>
       </div>
-      <div className=" hidden sm:block max-w-[350px] rounded-[15px] drop-shadow-2xl">
+      <div className=" hidden lg:block max-w-[350px] rounded-[15px] drop-shadow-2xl">
         <Image
           className="rounded-[15px] drop-shadow-2xl"
           src={faaiz}
